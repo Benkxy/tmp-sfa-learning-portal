@@ -1,0 +1,18 @@
+{
+  "apiVersion": "1.0",
+  "id": "searchsg-widget",
+  "name": "SearchSG Search Bar",
+  "description": "Embed the Singapore Search.gov.sg search bar into Canva sites.",
+  "publisher": {
+    "name": "Benk",
+    "website": "https://benkxy.github.io"
+  },
+  "launch": {
+    "url": "https://benkxy.github.io/tmp-sfa-learning-portal/search.html"
+  },
+  "permissions": ["network"],
+  "icons": {
+    "48": "https://benkxy.github.io/tmp-sfa-learning-portal/icon48.png",
+    "96": "https://benkxy.github.io/tmp-sfa-learning-portal/icon96.png"
+  }
+}
