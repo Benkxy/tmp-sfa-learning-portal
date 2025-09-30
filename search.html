@@ -1,16 +1,30 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script 
+  <meta charset="utf-8" />
+  <title>SearchSG Widget</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Import Search.gov.sg widget -->
+  <script 
     id="searchsg-config" 
     src="https://api.search.gov.sg/v1/searchconfig.js?clientId=15c52337-ddb9-4d24-9bcf-6d10ce033e85"
-    defer >
-    </script>
+    defer>
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    #searchsg-searchbar {
+      width: 100%;
+      padding: 1rem;
+    }
+  </style>
 </head>
 
-<body>   
-<div id="searchsg-searchbar" />  
-
-hello world 
-
+<body>
+  <div id="searchsg-searchbar"></div>
 </body>
 </html>
